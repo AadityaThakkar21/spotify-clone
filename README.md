@@ -5,6 +5,7 @@ Welcome to my Spotify UI Clone project! This is my first development project usi
 ## Project Overview
 
 This project challenged me to replicate the Spotify UI to sharpen my front-end development skills and deepen my understanding of user-centric design. The result is a responsive, visually appealing, and accurate representation of the original Spotify interface.
+To view the project refer to https://aadityathakkar21.github.io/spotify-clone/
 
 ## Features
 

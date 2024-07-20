@@ -454,6 +454,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.55rem;
+    padding: 0.3rem;
 }
 
 .grid1_card1{
@@ -465,7 +466,7 @@ body{
 }
 
 .grid1_card1:hover{
-    background-color: #8859593a;
+    background-color: #9975753a;
 }
 
 .main_page_grid_1 img{
@@ -478,6 +479,11 @@ body{
     align-items: center;
 }
 
+@media screen and (max-width: 1500px) {
+    .main_page_grid_1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 .card_desc{
     padding: 0.5rem;
@@ -516,6 +522,19 @@ body{
 .grid2_desc{
     font-size: 0.95rem;
     padding: 0.2rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .main_page_grid_2{
+        grid-template-columns: repeat(3, 1fr);
+        gap: auto;
+    }
+    .grid2_desc{
+        max-width: 9.6rem;
+    }
+    .row1_right{
+        margin-left: 40rem;
+    }
 }
 
 .grid3_title{

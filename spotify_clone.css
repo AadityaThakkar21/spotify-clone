@@ -510,6 +510,7 @@ body{
 .grid2_image img{
     height: 9.6rem;
     width: 9.6rem;
+    border-radius: 0.4rem;
 }
 
 .grid2_singer{
@@ -554,6 +555,7 @@ body{
 .grid3_image img{
     height: 9.6rem;
     width: 9.6rem;
+    border-radius: 5rem;
 }
 
 .grid3_singer{
